@@ -50,6 +50,16 @@ body {
 
 /* ---------- Header Styles ---------- */
 /* TO DO */
+header {
+    background-color: cream;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; /* centers the header on the page */
+  }
 
 /* ---------- Logo Link Styles ---------- */
 /* TO DO */
