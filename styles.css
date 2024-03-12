@@ -60,7 +60,13 @@ header {
     max-width: 1200px;
     margin: 0 auto; /* centers the header on the page */
   }
-
+  
+/* ---------- Header Anchor Styles ---------- */
+header a.header-link {
+    float: left;
+    margin-left: 2rem;
+    padding: 0;
+  }
 /* ---------- Logo Link Styles ---------- */
 /* TO DO */
 
