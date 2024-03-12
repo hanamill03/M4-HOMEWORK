@@ -37,6 +37,17 @@ body::after{
     z-index: -1;
 }
 
+body {
+    background-color: lightblue;
+    background-image: url('images/topography.jpg');
+    color: darkgray;
+    line-height: 1.5;
+    font-family: var(--fonts), sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+  }
+
 /* ---------- Header Styles ---------- */
 /* TO DO */
 
