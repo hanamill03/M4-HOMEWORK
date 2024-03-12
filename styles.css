@@ -87,7 +87,7 @@ img {
     max-width: 450px;
     margin: 1rem 0;
   }
-  
+
 /* Logo Image Styles  */
 header img{
     filter: var(--filter-shadow-lg);
@@ -96,23 +96,57 @@ header img{
 
 /* ---------- H1 Styles ---------- */
 /* TO DO */
+h1 {
+    font-size: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 0 0 2rem;
+    font-family: var(--fonts);
+    font-weight: 700;
+    font-style: normal;
+  }
 
 /* ---------- Link Styles ---------- */
 /* TO DO */
+a {
+    display: block;
+    padding: 1rem;
+    color: darkgray;
+  }
 
 /* ---------- Navigation Styles ---------- */
 /* TO DO */
-
+nav {
+  float: right;
+  margin: 1rem 2rem 0 0;
+}
 /* ---------- Nav Ul Styles --------- */
 /* TO DO */
-
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 /* ---------- Nav Li Styles --------- */
 /* TO DO */
 
+nav li {
+    float: left;
+  }
 /* ---------- Nav a Styles --------- */
 /* TO DO */
 
-/* ---------- Navigation a Hover Styles ---------- */
+nav a {
+    display: block;
+    padding: 1rem;
+    background-color: lightblue;
+    border-radius: 0 24px 24px 0;
+    color: darkgray;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    filter: var(--filter-shadow-lg);
+  }
+/*------- Navigation a Hover Styles ---------- */
 nav a:hover{
     background-color: var(--dk-blue);
     filter: var(--filter-shadow-sm);
@@ -123,25 +157,78 @@ nav a:hover{
 
 /* ---------- Main Styles ---------- */
 /* TO DO */
-
+main {
+    clear: both;
+    background: linear-gradient(var(--cream) 0%, var(--lt-blue) 20%, var(--med-blue) 50%, var(--dk-blue) 80%, var(--med-gray) 100%);
+    padding: 2rem 1rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  main > section {
+    padding: 4rem 0;
+  }
 /* ---------- Section Styles ---------- */
 /* TO DO */
 
 /* ---------- H2 Styles ---------- */
 /* TO DO */
-
+h2 {
+    text-align: center;
+    margin: 0.5rem 0;
+    font-size: 3rem;
+    font-family: var(--fonts);
+    font-weight: 700;
+    font-style: normal;
+  }
 /* ---------- Paragraph Styles ---------- */
 /* TO DO */
-
+p {
+    width: 100%;
+    max-width: 65ch;
+    margin: 0 auto;
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+  
+  main > p {
+    text-align: left;
+    font-size: 1.25rem;
+  }
 /* For the paragraph under the h2 in the main */
 /* TO DO */
 
 /* ---------- H3 Styles ---------- */
 /* TO DO */
-
+h3 {
+    font-size: 2rem;
+    margin: 1rem 0 0.5rem 0;
+    font-family: var(--fonts);
+    font-weight: 700;
+    font-style: normal;
+  }
 /* ---------- About Section Styles ---------- */
 /* TO DO */
-
+#about {
+    float: left;
+    width: 500px;
+    padding: 0 1.25rem;
+  }
+  
+  #about a {
+    display: block;
+    width: 200px;
+    margin: 1.5rem auto;
+    background-color: var(--med-blue);
+    border-radius: 0 24px 24px 0;
+    color: cream;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    filter: var(--filter-shadow-lg);
+    padding: 0.25rem 0;
+  }
 /* For the Book Services Link/button styles */
 /* TO DO */
 
@@ -156,7 +243,20 @@ nav a:hover{
 
 /* ---------- Services Section Styles ---------- */
 /* TO DO */
-
+#services {
+    clear: both;
+  }
+  
+  #services > section {
+    width: 368px;
+    float: left;
+    margin: 0 1rem;
+  }
+  
+  #services h4 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem 0;
+    font-family: var(--fonts
 /* For the sections inside Services */
 /* TO DO */
 
