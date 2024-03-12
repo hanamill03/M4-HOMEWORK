@@ -60,15 +60,14 @@ header {
     max-width: 1200px;
     margin: 0 auto; /* centers the header on the page */
   }
-  
-/* ---------- Header Anchor Styles ---------- */
+
+/* ---------- Logo Link Styles ---------- */
+/* TO DO */
 header a.header-link {
     float: left;
     margin-left: 2rem;
     padding: 0;
   }
-/* ---------- Logo Link Styles ---------- */
-/* TO DO */
 
 /* ---------- Hover Styles for Logo Image and Link ---------- */
 header > a:hover{
@@ -81,7 +80,14 @@ header a:hover img{
 
 /* ---------- Image Styles ---------- */
 /* TO DO */
-
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    margin: 1rem 0;
+  }
+  
 /* Logo Image Styles  */
 header img{
     filter: var(--filter-shadow-lg);
